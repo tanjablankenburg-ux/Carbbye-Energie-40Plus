@@ -71,19 +71,19 @@ export default function ErgebnisPage() {
         <div className="rounded-2xl p-5 mb-8 text-center" style={{ backgroundColor: "#fdf0e8", border: "2px solid #c4704a" }}>
           <div className="text-2xl mb-2">🎁</div>
           <div className="font-bold mb-1" style={{ color: "#3d3530" }}>
-            Dein kostenloser Energie-Plan
+            Mein kostenloser Keto-Guide für dich
           </div>
           <p className="text-sm mb-4" style={{ color: "#6b6560" }}>
-            Ich schicke dir einen persönlichen 3-Tage-Plan passend zu deinem Ergebnis — direkt in dein Postfach.
+            Was ist Keto, wie wendest du es an — mit vielen Rezepten und Wochenplänen. Komplett kostenlos.
           </p>
           <a
-            href="https://carbbye.de/energie-check-40plus/"
+            href="https://carbbye.de/keto-guide/"
             target="_blank"
             rel="noopener noreferrer"
             className="block w-full py-3 rounded-2xl font-semibold text-white text-sm"
             style={{ backgroundColor: "#c4704a" }}
           >
-            Ja, ich möchte meinen Energie-Plan →
+            Jetzt kostenlosen Keto-Guide holen →
           </a>
         </div>
 
