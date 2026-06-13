@@ -195,19 +195,21 @@ export default function DashboardPage() {
           </Link>
         </div>
 
-        {/* Reset */}
-        <div className="mt-8 text-center">
+        {/* Repeat test */}
+        <div className="mt-6">
           <button
             onClick={() => {
               localStorage.removeItem("energiecheck_result");
-              localStorage.removeItem("energiecheck_checkins");
-              router.push("/start");
+              router.push("/test");
             }}
-            className="text-xs"
-            style={{ color: "#c8bdb5" }}
+            className="w-full py-3 rounded-2xl border-2 font-semibold text-sm transition-colors"
+            style={{ borderColor: "#c4704a", color: "#c4704a", backgroundColor: "transparent" }}
           >
-            Test neu starten
+            🔄 Test wiederholen
           </button>
+          <p className="text-xs text-center mt-2" style={{ color: "#c8bdb5" }}>
+            Dein Check-in Verlauf bleibt erhalten
+          </p>
         </div>
       </div>
     </main>
