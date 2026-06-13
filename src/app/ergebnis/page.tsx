@@ -67,6 +67,26 @@ export default function ErgebnisPage() {
           </p>
         </div>
 
+        {/* Lead magnet CTA */}
+        <div className="rounded-2xl p-5 mb-8 text-center" style={{ backgroundColor: "#fdf0e8", border: "2px solid #c4704a" }}>
+          <div className="text-2xl mb-2">🎁</div>
+          <div className="font-bold mb-1" style={{ color: "#3d3530" }}>
+            Dein kostenloser Energie-Plan
+          </div>
+          <p className="text-sm mb-4" style={{ color: "#6b6560" }}>
+            Ich schicke dir einen persönlichen 3-Tage-Plan passend zu deinem Ergebnis — direkt in dein Postfach.
+          </p>
+          <a
+            href="https://carbbye.de/energie-check-40plus/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full py-3 rounded-2xl font-semibold text-white text-sm"
+            style={{ backgroundColor: "#c4704a" }}
+          >
+            Ja, ich möchte meinen Energie-Plan →
+          </a>
+        </div>
+
         {/* Energy robbers */}
         <div className="mb-8">
           <h2 className="font-bold text-lg mb-4" style={{ color: "#3d3530" }}>
