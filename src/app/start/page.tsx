@@ -13,7 +13,7 @@ export default function StartPage() {
           Warum bist du so erschöpft?
         </h1>
         <p className="text-lg mb-2" style={{ color: "#6b6560" }}>
-          Du schläfst, aber erholt dich nicht. Du isst, aber hast trotzdem Heißhunger. Du versuchst aktiv zu sein — und bist danach noch müder.
+          Du schläfst, aber erholst dich nicht. Du isst, aber hast trotzdem Heißhunger. Du versuchst aktiv zu sein — und bist danach noch müder.
         </p>
         <p className="text-base mb-8" style={{ color: "#6b6560" }}>
           Das hat einen Grund. Dieser Test zeigt dir in 5 Minuten, was wirklich hinter deiner Erschöpfung steckt — und was du konkret dagegen tun kannst.
