@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Energie-Check | carbbye 40+",
@@ -11,6 +12,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="de">
       <body className="min-h-screen" style={{ backgroundColor: "#faf7f2" }}>
         {children}
+        <Footer />
       </body>
     </html>
   );
