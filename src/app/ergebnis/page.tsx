@@ -121,17 +121,28 @@ export default function ErgebnisPage() {
           </div>
         </div>
 
-        {/* Subtle hint about "ein anderer Treibstoff" for red/yellow */}
-        {(level === "rot" || level === "gelb") && (
-          <div className="rounded-2xl p-5 mb-8" style={{ backgroundColor: "#fdf0e8", border: "1px solid #f0d5bc" }}>
-            <div className="text-sm font-semibold mb-2" style={{ color: "#c4704a" }}>
-              💡 Eine Sache noch
-            </div>
-            <p className="text-sm" style={{ color: "#6b6560" }}>
-              Viele Frauen berichten, dass sich ihre Energie fundamental verändert hat — nicht durch mehr Schlaf oder weniger Stress, sondern weil ihr Körper gelernt hat, einen anderen Treibstoff zu nutzen. Falls dich das interessiert: dein Dashboard gibt dir mehr Infos dazu.
-            </p>
+        {/* Anderer Treibstoff Sektion */}
+        <div className="rounded-2xl p-5 mb-8" style={{ backgroundColor: "#fdf0e8", border: "1px solid #f0d5bc" }}>
+          <div className="text-2xl mb-2">⚡</div>
+          <div className="font-bold mb-2" style={{ color: "#3d3530" }}>
+            Was wenn dein Körper einfach den falschen Treibstoff bekommt?
           </div>
-        )}
+          <p className="text-sm mb-3 leading-relaxed" style={{ color: "#6b6560" }}>
+            Viele Frauen ab 40 tun alles richtig — und fühlen sich trotzdem leer. Nicht weil sie zu wenig schlafen oder zu viel Stress haben. Sondern weil der Körper in dieser Lebensphase effizienter mit einem anderen Treibstoff läuft.
+          </p>
+          <p className="text-sm mb-4 leading-relaxed" style={{ color: "#6b6560" }}>
+            Ich habe das selbst erlebt — und es hat mich überrascht wie schnell sich etwas verändert hat. Wenn du neugierig bist was ich damit meine, schau gerne mal rein.
+          </p>
+          <a
+            href="https://pruvit.com/de-de?ref=carbbye"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full py-3 rounded-2xl font-semibold text-center text-sm"
+            style={{ backgroundColor: "#f0ebe3", color: "#c4704a", border: "1px solid #c4704a" }}
+          >
+            Mehr erfahren →
+          </a>
+        </div>
 
         {/* CTA */}
         <div className="space-y-3">
