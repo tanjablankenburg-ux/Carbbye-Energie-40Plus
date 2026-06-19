@@ -133,15 +133,13 @@ export default function ErgebnisPage() {
           <p className="text-sm mb-4 leading-relaxed" style={{ color: "#6b6560" }}>
             Ich habe das selbst erlebt — und es hat mich überrascht wie schnell sich etwas verändert hat. Wenn du neugierig bist was ich damit meine, schau gerne mal rein.
           </p>
-          <a
-            href="https://pruvit.com/de-de?ref=carbbye"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href="/energie-quelle"
             className="block w-full py-3 rounded-2xl font-semibold text-center text-sm"
             style={{ backgroundColor: "#f0ebe3", color: "#c4704a", border: "1px solid #c4704a" }}
           >
             Mehr erfahren →
-          </a>
+          </Link>
         </div>
 
         {/* CTA */}
